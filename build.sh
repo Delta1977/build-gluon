@@ -4,16 +4,17 @@
 
 BROKEN=0 # -b
 DIRCLEAN=0 # -d
-GLUON_BRANCH=master # -g
+GLUON_BRANCH=v2017.1.x # -g
 GLUON_GIT=https://github.com/freifunk-gluon/gluon.git
-GLUON_RELEASE= # -r
-GLUON_TARGET= # -t
+GLUON_RELEASE=v2017.1.5 # -r
+GLUON_TARGET=ar71xx-tiny # -t
 GLUON_VERSION= # -v
 LEDE_DIR=$(pwd)/lede # -l
 OUTPUT_DIR=$(pwd)/output # -o
-SITE_BRANCH=master # -z
-SITE_GIT= # -s
+SITE_BRANCH=v2017.1-tdf # -z
+SITE_GIT=https://github.com/Freifunk-Troisdorf/site.git # -s
 JOBS=$(grep -c processor /proc/cpuinfo) # -j
+
 
 # Process flags
 
